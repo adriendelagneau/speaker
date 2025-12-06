@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { pipeline } from "@xenova/transformers";
+import { pipeline } from "@huggingface/transformers";
 import * as lamejs from "lamejs"; // UMD import for Bun/Next.js
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
